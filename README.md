@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+# Environment
+
+npm install
+
+npm install babel-plugin-react-compiler@latest
+
 First, run the development server:
 
 ```bash
