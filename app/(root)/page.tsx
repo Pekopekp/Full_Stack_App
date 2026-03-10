@@ -1,4 +1,4 @@
-import Hello from "../component/hello"
+import Hello from "../../component/hello"
 
 const Home = () => {
   console.log('I am server component');
