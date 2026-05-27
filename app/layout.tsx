@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import LightRays from "@/components/LightRays";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -31,11 +32,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
         
         <div className="absolute inset-0 top-0 z-[-1] min-h-screen">
           <LightRays
             raysOrigin="top-center-offset"
-            raysColor="#3decb5"
+            raysColor="#5dfeca"
             raysSpeed={1}
             lightSpread={0.9}
             rayLength={1.4}
